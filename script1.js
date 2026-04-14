@@ -22,7 +22,7 @@ document.getElementById('rsvpForm').addEventListener('submit', function(e) {
     const name = document.getElementById('name').value;
     const attending = document.getElementById('attending').value;
 
-    const phoneNumber = '94705693045'; // Replace with the number to receive confirmations (country code + number)
+    const phoneNumber = '94775611418'; // Replace with the number to receive confirmations (country code + number)
     const message = `Hello! My name is ${name}. I will ${attending === 'Yes' ? 'attend' : 'not attend'} the wedding.`;
 
     // Open WhatsApp chat with the message
